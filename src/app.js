@@ -133,8 +133,8 @@ app.get("/users", (req, res) => {
   const endIndex = page * count;
 
   const users = hardRes.users.slice(startIndex, endIndex);
-
-  res.json({...hardRes, users});
+  res.json(hardRes.users[1]);
+  //res.json({...hardRes, users});
 });
 
 app.listen(port, () => {
