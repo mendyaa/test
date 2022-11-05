@@ -1,5 +1,5 @@
 {
-  "name": "rest-api-server",
+  "name": "rest-api",
   "version": "1.0.0",
   "description": "",
   "main": "src/app.js",
@@ -7,8 +7,7 @@
     "start": "nodemon src/app.js"
   },
   "dependencies": {
-    "express": "4.17.1",
-    "nodemon": "2.0.2"
+    "drivewealth-client": "1.0.1"
   },
   "devDependencies": {
     "nodemon": "1.18.4"
