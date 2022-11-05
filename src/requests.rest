@@ -1,0 +1,12 @@
+GET /users/id/documents
+GET /countries
+GET /documents/id/url
+POST /auth
+POST /accounts/transfer
+GET /accounts/{accountID}/violations
+GET	/accounts/search	
+GET	/users/{userID}/accounts	
+GET	/users/{userID}	
+PATCH	/users/{userID}	
+GET	/users/{userID}/kyc-status
+GET	/instruments/{instrumentID}

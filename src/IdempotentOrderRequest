@@ -1,0 +1,15 @@
+POST /back-office/orders HTTP/1.1
+Host: bo-api.drivewealth.io
+dw-client-app-key: :appKey
+Accept: application/json
+dw-auth-token: :authKey
+Idempotency-Key: 418a5506-256c-4c3c-9d4d-f491522cf7f2
+dw-request-timestamp: 2019-06-25T23:40:12.345Z
+
+{
+  "accountNo": "DWPH000003",
+  "orderType": "MARKET",
+  "symbol": "AMZN",
+  "side": "BUY",
+  "amountCash": 100,
+}
